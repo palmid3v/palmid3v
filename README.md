@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **about React and Next.Js**
 
-- 👨‍💻 All of my projects are available at [https://carlos-palmieri.vercel.app/](https://carlos-palmieri.vercel.app/)      ![alt text](http://url/to/[img.png](https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif))
+- 👨‍💻 All of my projects are available at [https://carlos-palmieri.vercel.app/](https://carlos-palmieri.vercel.app/)
 
 - 💬 Ask me about **Any of my projects :)**
 
