@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Carls Palmieri</h1>
-<h3 align="center">Experienced web developer skilled in HTML, CSS, JavaScript, Python, and PostgreSQL, with expertise in frameworks such as React, Next.js, Flask, and Django.</h3>
+<h3 align="center">Welcome to my portfolio! I'm a passionate 27-year-old Web Developer hailing from the vibrant city of Cartagena, Colombia. With a strong foundation in HTML, CSS, and JavaScript, coupled with proficiency in Python and frameworks like React.js, Vue.js, and Angular.js, I craft dynamic and user-friendly web applications. As I embark on my journey to secure my first job in the industry, I remain dedicated to continual learning, eagerly embracing new technologies and methodologies. Explore my projects and witness my dedication to pushing boundaries and delivering exceptional digital experiences..</h3>
 
 <p align="left"> <a href="https://twitter.com/thisispalmi" target="blank"><img src="https://img.shields.io/twitter/follow/thisispalmi?logo=twitter&style=for-the-badge" alt="thisispalmi" /></a> </p>
 
