@@ -1,5 +1,48 @@
 <h1 align="center">Hi 👋, I'm Carlos Palmieri</h1>
-<h3 align="center">Welcome to my portfolio! I'm a passionate 29-year-old Web Developer hailing from the vibrant city of Cartagena, Colombia. With a strong foundation in HTML, CSS, and JavaScript, coupled with proficiency in Python and frameworks like React.js, Vue.js, and Angular.js, I craft dynamic and user-friendly web applications. As I embark on my journey to secure my first job in the industry, I remain dedicated to continual learning, eagerly embracing new technologies and methodologies. Explore my projects and witness my dedication to pushing boundaries and delivering exceptional digital experiences..</h3>
+<h3 align="center"># 👋 Hi, I'm Carlos Palmieri (Palmi)
+
+I'm a Web Developer based in Colombia, focused on building practical, user-centered applications that solve real-world problems.
+
+## 🚀 About Me
+
+I specialize in creating modern web applications with clean UI and solid functionality. My approach combines development, product thinking, and real business use cases — from pricing tools to customer-facing apps.
+
+Currently, I'm working on projects like:
+- 🥪 A custom sandwich builder web app with dynamic pricing
+- 📦 A cupboard/inventory management system
+- 💼 Portfolio projects with real-world logic and backend integration
+
+## 🧠 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript, React
+- **Backend / BaaS:** Firebase (Firestore, Auth)
+- **Tools & Workflow:** Git, GitHub, responsive design, component-based architecture
+- **Other:** Python (automation, scripting)
+
+## 🎯 What I'm Focused On
+
+- Building full-stack applications with real business value  
+- Improving UI/UX to create clean and intuitive experiences  
+- Strengthening backend logic and data handling  
+- Preparing for remote opportunities (LATAM / US-friendly)
+
+## 📂 Projects
+
+Check out my repositories to see:
+- Interactive UI applications  
+- Real-time data handling with Firebase  
+- Practical tools built from real ideas  
+
+## 📬 Let's Connect
+
+I'm actively working on new projects and open to opportunities in:
+- Web Development  
+- Technical Support / Hybrid Roles  
+- Product-oriented teams  
+
+---
+
+Thanks for stopping by 🚀</h3>
 
 <p align="left"> <a href="https://twitter.com/thisispalmi" target="blank"><img src="https://img.shields.io/twitter/follow/thisispalmi?logo=twitter&style=for-the-badge" alt="thisispalmi" /></a> </p>
 
