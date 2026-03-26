@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Carlos Palmieri</h1>
-<h3 align="center"># 👋 Hi, I'm Carlos Palmieri (Palmi)
 
 I'm a Web Developer based in Colombia, focused on building practical, user-centered applications that solve real-world problems.
 
@@ -50,9 +49,7 @@ Thanks for stopping by 🚀</h3>
 
 - 🌱 I’m currently learning **about React and Next.Js**
 
-- 👨‍💻 All of my projects are available at [https://carlos-palmieri.vercel.app/](https://carlos-palmieri.vercel.app/)
-
-- 💬 Ask me about **Any of my projects :)**
+- 👨‍💻 All of my projects are available at
 
 - 📫 How to reach me **cpalmi0725@gmail.com**
 
