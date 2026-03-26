@@ -107,5 +107,3 @@ Thanks for stopping by 🚀</h3>
 </a>
 
 </p>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=palmid3v&show_icons=true&locale=en&layout=compact" alt="palmid3v" /></p>
