@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/palmid3v/palmid3v/blob/main/banner.png" alt="PalmiDev Banner"/>
+</p>
+
 # 👋 Hi, I'm Carlos Palmieri (Palmi)
 
 🚀 Web Developer focused on building real-world applications with clean UI and solid backend logic.
@@ -55,8 +59,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TU-USUARIO&show_icons=true&theme=tokyonight" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU-USUARIO&layout=compact&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=palmid3v&show_icons=true&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=palmid3v&layout=compact&theme=tokyonight" height="150"/>
 </p>
 
 ---
@@ -64,7 +68,7 @@
 ## 🔥 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TU-USUARIO&theme=tokyo-night" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=palmid3v&theme=tokyo-night" />
 </p>
 
 ---
