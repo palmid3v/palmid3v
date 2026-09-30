@@ -205,10 +205,6 @@ These projects are part of the progression toward larger product-oriented applic
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=palmid3v&layout=compact&theme=tokyonight" height="150"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=palmid3v&theme=tokyo-night" />
-</p>
-
 ---
 
 ## 📬 Open to Opportunities
