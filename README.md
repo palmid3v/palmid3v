@@ -1,229 +1,92 @@
-# 👋 Hi, I'm Carlos Palmieri — Palmi
+# 👋 Carlos Palmieri — PalmiD3v
 
-**Web Developer • Product Builder • Full-Stack / Frontend**
+Personal GitHub profile and professional development overview for **Carlos Palmieri / PalmiD3v**.
 
-I build practical software products from idea to implementation, with a focus on **clean UI, useful UX, business logic, documentation, and maintainable architecture**.
+> **Current status:** Active developer profile centered on product-oriented web development, full-stack/frontend engineering, UI/UX, documentation, and an evolving portfolio of practical applications.
 
-🔗 **Portfolio:** https://palmid3v.vercel.app/
+## 🎯 Profile scope
 
----
+This repository is the profile/readme layer for the PALMI-D3V ecosystem. It highlights:
 
-## 🚀 What I'm Building
+- Professional identity
+- Current products and projects
+- Technical stack
+- Development workflow
+- Featured repositories
+- Current learning focus
+- Professional interests
 
-My current work is centered around real-world applications rather than isolated demos:
+## 🚀 Featured projects
 
-| Project | Focus | Stack / Core Tech |
-|---|---|---|
-| 🥪 **Sandwichies** | Sandwich builder + business operations platform | React, Vite, Firebase, Firestore, Functions |
-| 📦 **Cupboard** | Inventory management + barcode scanning | React, Vite, Firebase, Firestore, Tailwind, PWA |
-| 📄 **ATS Resume Builder** | Structured resume creation + ATS-oriented guidance | React, Vite, Tailwind, html2pdf.js, PWA |
-| 🌐 **Portfolio** | Personal professional portfolio | Next.js, React, TypeScript, Tailwind, Framer Motion |
-| 🔐 **PasswordVault** | Desktop password-manager foundation | React, TypeScript, Vite, Tailwind, Tauri, Rust |
-| 💼 **Nómina Colombia** | Planned personal payroll application for Colombia | Planned / research & architecture stage |
+| Project | Focus | Core technology |
+| --- | --- | --- |
+| 🥪 Sandwichies | Sandwich configurator + business operations | React, Vite, Firebase, Firestore, Functions |
+| 📦 Cupboard | Inventory + barcode scanning | React, Vite, Firebase, Tailwind, PWA |
+| 📄 ATS Resume Builder | Structured resume + ATS guidance | React, Vite, Tailwind, html2pdf.js, PWA |
+| 🌐 Portfolio | Professional portfolio | Next.js, React, TypeScript, Tailwind, Framer Motion |
+| 🔐 PasswordVault | Desktop vault foundation | React, TypeScript, Tauri, Rust |
+| 💼 Nómina Colombia | Planned personal payroll application | Research / architecture stage |
 
-> The main product repositories are maintained as active projects, while smaller repositories also document experiments, learning, and focused utilities.
+## 🧠 Development focus
 
----
+- Product-oriented software
+- Frontend and full-stack development
+- UI/UX and responsive interfaces
+- Firebase / Firestore applications
+- PWA and mobile-friendly experiences
+- Architecture and technical documentation
+- AI-assisted development workflows
+- Backend and systems learning, including Go
 
-## 🧠 About Me
-
-- 🧩 I like turning ideas into **complete, usable products**
-- 🎨 I care about **UI, UX, responsive design, and user flows**
-- 🏗️ I work across **frontend, backend/BaaS, data, and product architecture**
-- 📚 I keep projects documented so they can evolve beyond prototypes
-- 🤖 I use **AI-assisted development workflows** while keeping implementation decisions and source code under control
-- 🌎 Open to **remote opportunities**, including LATAM / US-friendly teams
-
----
-
-## ⚡ Tech Stack
+## 🛠️ Technology
 
 ### Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,vite,tailwind" />
-</p>
+HTML · CSS · JavaScript · TypeScript · React · Next.js · Vue · Vite · Tailwind CSS
 
 ### Backend / Data
+Firebase · Firestore · Node.js · Go
 
-<p>
-  <img src="https://skillicons.dev/icons?i=firebase,nodejs,go" />
-</p>
-
-### Desktop / Native
-
-<p>
-  <img src="https://skillicons.dev/icons?i=tauri,rust" />
-</p>
+### Desktop
+Tauri · Rust
 
 ### Tools
+Git · GitHub · Postman · Python
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,postman,python" />
-</p>
+## 🧱 Development workflow
 
----
+~~~text
+Idea
+  → Product Definition
+  → UX/UI
+  → Architecture
+  → Development
+  → Testing
+  → Deployment
+  → Iteration
+~~~
 
-## 🏗️ How I Build
+Larger projects maintain:
 
-I like a product-oriented workflow:
+- Product requirements
+- Business rules
+- Architecture decisions
+- UX/UI documentation
+- Testing/validation
+- Roadmaps/tasks
+- Project context
 
-**Idea → Product Definition → UX/UI → Architecture → Development → Testing → Deployment → Iteration**
+## 📁 Repository boundary
 
-Projects are organized so the current implementation stays traceable through:
+This repository is a GitHub profile/documentation surface. Individual products remain in their own repositories with their own READMEs and CONTEXT.md files.
 
-- 📋 Product requirements and business rules
-- 🏗️ Architecture and data decisions
-- 🎨 UX/UI documentation
-- 🧪 Testing and validation
-- 🗺️ Roadmaps and task history
-- 🤖 AI-ready project context for development workflows
+## 🌐 Portfolio
 
-For my larger repositories, the **app/** directory is generally the current implementation source of truth, while **archive/** preserves historical work.
+https://palmid3v.vercel.app/
 
----
+## 📚 Project context
 
-## 📚 Featured Projects
-
-### 🥪 Sandwichies
-
-A business-oriented platform for configuring sandwiches and managing operations.
-
-Current architecture includes:
-
-- Dynamic product configuration
-- Pricing and cost calculations
-- Ingredient/inventory estimation
-- Cart and customer checkout flow
-- Order submission through Firebase
-- Admin authentication and custom-claim authorization
-- Firestore-based order management and dashboard
-- Server-side recalculation of trusted order totals
-
-### 📦 Cupboard
-
-A mobile-first inventory application built around fast product registration and stock visibility.
-
-Current capabilities include:
-
-- Barcode scanning
-- Manual barcode entry
-- Product search, filtering, and sorting
-- Portion tracking
-- Product details and editing
-- Low-stock visibility
-- Firestore persistence
-- PWA support
-- Responsive/mobile-first UI
-
-### 📄 ATS Resume Builder
-
-A local-first resume builder designed around structured resume data and ATS-oriented guidance.
-
-Current capabilities include:
-
-- Personal information
-- Experience and education
-- Skills
-- Projects
-- Certifications
-- Languages
-- Links
-- Live preview
-- Deterministic ATS scoring and recommendations
-- Local persistence
-- Theme settings
-- Letter / A4 configuration
-- Client-side PDF export
-- PWA support
-
-### 🌐 Portfolio
-
-My professional portfolio and central showcase for projects, experience, education, certifications, capabilities, and contact information.
-
-Built with:
-
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-
-The portfolio's project data is maintained from a centralized data model inside the application.
-
-### 🔐 PasswordVault
-
-A desktop password-manager foundation built with a strong emphasis on establishing the native architecture first.
-
-Current work focuses on:
-
-- Desktop UI
-- Credential/category workflows
-- Password generation
-- Search
-- Theme support
-- Tauri + Rust integration
-
-The project is **not yet treated as a production password manager**; secure encrypted persistence, vault handling, session locking, and related security validation remain part of the roadmap.
+See CONTEXT.md for the profile-level context and rules.
 
 ---
 
-## 🧪 Smaller Projects & Experiments
-
-I also maintain smaller repositories covering focused exercises, utilities, and learning projects, including:
-
-- **Rick-Morty-VueJs-Tailwind** — Vue + API integration
-- **cal** — vanilla JavaScript calculator
-- **bg-color-changer** — DOM/JavaScript experiment
-- **qr-generator** — browser QR utility
-- **to-do** — local-first task application
-- **tattoo-landing-page** — landing-page prototype
-- **timetable** — timetable/study-planning concept
-
-These projects are part of the progression toward larger product-oriented applications.
-
----
-
-## 🎯 Current Focus
-
-- 🚀 Building complete, real-world software products
-- 🏗️ Improving architecture and maintainability
-- 🎨 Strengthening UI/UX and responsive design
-- 🔥 Working deeply with Firebase / Firestore
-- 🧠 Expanding backend and systems knowledge, including **Go**
-- 📱 Building mobile-friendly and PWA experiences
-- 📚 Improving technical documentation and project traceability
-- 🤖 Using AI-assisted tooling as part of the development workflow
-- 💼 Preparing projects and portfolio materials for professional opportunities
-
----
-
-## 📊 GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=palmid3v&show_icons=true&theme=tokyonight" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=palmid3v&layout=compact&theme=tokyonight" height="150"/>
-</p>
-
----
-
-## 📬 Open to Opportunities
-
-I'm interested in roles and teams involving:
-
-- Web Development
-- Frontend Development
-- Full-Stack Development
-- Product-focused engineering
-- Technical / hybrid roles
-- Remote teams
-
----
-
-<p align="center">
-  <b>Building ideas into useful software — one project at a time.</b>
-</p>
-
-<p align="center">
-  ⭐ Explore the repositories to see the work in progress, experiments, and product builds.
-</p>
+**PALMI-D3V** · GitHub profile · 2026
