@@ -79,5 +79,8 @@ Some source repositories are private; links and access follow each repository's 
 
 ## 📝 Documentation update log
 
-- 2026-10-18: refreshed public README descriptions for the repositories listed above and created this ecosystem inventory.
+- 2026-10-18: refreshed public README descriptions across 17 accessible repositories and created this ecosystem inventory.
+- 2026-10-18: refreshed the internal CONTEXT.md handoff for all 17 repositories (created one for StreamCanvas, which did not have one).
+- 2026-10-18: synchronized current release gates in the active roadmaps for DayFlow, Sandwichies, Cupboard, Financial-D3v, Portfolio, Bingo, Calculator, Timetable, Theme Lab, To-Do, ATS Resume Builder and StreamCanvas; refreshed PasswordVault finalization notes and the Sandwichies/Financial documentation entry points.
+- Historical phase reports, sprint records, imported agent skill references and old audit artifacts were preserved rather than rewritten as if they were new evidence. They still require focused review when the corresponding implementation changes.
 - This index is a handoff aid; each repository's code and its current project-specific docs remain authoritative for implementation detail.
