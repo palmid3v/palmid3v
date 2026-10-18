@@ -40,3 +40,7 @@ Diseñado y desarrollado bajo la identidad **PALMI-D3V**.
 ---
 
 *Build · Create · Improve · Validate*
+
+## 🧭 Project ecosystem map
+
+For the cross-project inventory, confirmed relationships, migration boundaries, current release gates, and a handoff guide for the next planning chat, see [ECOSYSTEM_MAP.md](ECOSYSTEM_MAP.md). The map distinguishes implemented integrations from migration work and future ideas.
