@@ -1,11 +1,13 @@
 <!--
-  PALMI-D3V · GitHub Profile
+  PalmiD3v · GitHub Profile
   Keep public claims aligned with the implementation and current project documentation.
 -->
 
 <div align="center">
 
-# 🪐 PALMI-D3V
+<img src="./banner.svg" alt="PalmiD3v — Full-stack developer building digital products" width="100%" />
+
+# 🪐 PalmiD3v
 
 ### I turn ideas into digital products.
 
