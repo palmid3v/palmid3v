@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+<title id="title">PalmiD3v — Full-stack developer</title>
+<desc id="desc">Dark developer banner with red and magenta neon accents, code-inspired details, and the message Building Digital Products.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07080d"/><stop offset=".55" stop-color="#10101b"/><stop offset="1" stop-color="#1a0712"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff254f"/><stop offset="1" stop-color="#bd35ff"/></linearGradient>
+  <radialGradient id="orb"><stop stop-color="#f61e51" stop-opacity=".25"/><stop offset="1" stop-color="#f61e51" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a9a7d5" stroke-opacity=".08" stroke-width="1"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+</defs>
+<rect width="1600" height="620" fill="url(#bg)"/><rect width="1600" height="620" fill="url(#grid)"/>
+<circle cx="150" cy="120" r="250" fill="url(#orb)" filter="url(#blur)"/><circle cx="1450" cy="530" r="330" fill="url(#orb)" filter="url(#blur)"/>
+<path d="M0 490 C240 390 330 540 560 490 S950 410 1170 490 S1450 530 1600 430" fill="none" stroke="url(#glow)" stroke-opacity=".25" stroke-width="2"/>
+<g opacity=".55" fill="none" stroke="url(#glow)" stroke-width="2"><path d="M80 70h120l24 24v76l-24 24H80z"/><path d="M105 105h68m-68 22h50m-50 22h60"/><path d="M1450 80h80v80h-80z"/><path d="M1468 105l18 16-18 16m26 0h18"/></g>
+<g fill="#b7b6c9" opacity=".3" font-family="monospace" font-size="14"><text x="90" y="240">const idea = "something useful";</text><text x="90" y="265">build(idea).ship().improve();</text><text x="1190" y="235">01 / DESIGN</text><text x="1190" y="260">02 / BUILD</text><text x="1190" y="285">03 / DEPLOY</text></g>
+<g transform="translate(270 178)">
+  <text x="0" y="0" fill="#f5f4f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="106" font-weight="800" letter-spacing="-5">Palmi<tspan fill="url(#glow)">D3v</tspan></text>
+  <rect x="4" y="30" width="610" height="4" rx="2" fill="url(#glow)"/>
+  <text x="6" y="95" fill="#e6e4ed" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" letter-spacing="8" font-weight="600">FULL-STACK DEVELOPER</text>
+  <text x="6" y="145" fill="#b8b5c7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="5">BUILDING DIGITAL PRODUCTS</text>
+</g>
+<g transform="translate(275 440)" font-family="monospace" font-size="14" letter-spacing="2" fill="#d2cedd">
+  <circle cx="7" cy="0" r="4" fill="#ff315b"/><text x="24" y="5">WEB APPS</text><circle cx="160" cy="0" r="4" fill="#d638ff"/><text x="177" y="5">PRODUCTIVITY</text><circle cx="385" cy="0" r="4" fill="#ff315b"/><text x="402" y="5">DATA &amp; TOOLS</text><circle cx="570" cy="0" r="4" fill="#d638ff"/><text x="587" y="5">PRIVACY FIRST</text>
+</g>
+<text x="1475" y="565" text-anchor="end" fill="#d8d4e2" opacity=".7" font-family="monospace" font-size="15">by PalmiD3v</text>
+<path d="M70 585H1530" stroke="#fff" stroke-opacity=".12"/><text x="70" y="600" fill="#8e899f" font-family="monospace" font-size="11" letter-spacing="3">PLAN · CODE · BUILD · DEPLOY · IMPROVE</text>
+</svg>
