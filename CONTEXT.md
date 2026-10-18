@@ -41,3 +41,10 @@ This repository is profile-level documentation only. Product implementations and
 ## Documentation rule
 
 Keep featured project descriptions aligned with the current state of their individual repositories. Avoid claiming features or completion states that are no longer current.
+
+
+## Documentation checkpoint — 2026-10-18
+
+README.md actualizado como perfil público. Se añadió ECOSYSTEM_MAP.md para inventario de repositorios, relaciones confirmadas, riesgos de migración y flujo de continuidad para un nuevo chat. El mapa distingue portfolio/relaciones de migración de integraciones runtime reales.
+
+Do not promote planned work to implemented without code/test evidence. Keep public-facing copy accurate and keep private implementation notes here.
