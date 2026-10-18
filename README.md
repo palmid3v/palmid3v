@@ -69,6 +69,44 @@ My work spans productivity tools, personal-finance software, utilities, creative
 
 For the broader product story, experiments, and project notes, visit the **[PALMI-D3V Portfolio](https://palmid3v.vercel.app/)**.
 
+## 🌌 The PALMI-D3V Ecosystem — Progress
+
+A growing portfolio of **17 projects**, each with its own purpose, lifecycle, and release criteria. Progress combines documented implementation, overall product maturity, and remaining validation/release work.
+
+> 📊 **How to read these numbers:** percentages are evidence-based estimates from each project's current roadmap and context documentation—not live telemetry or a claim that every test passes. A feature-complete project can still have release or security checks pending. Percentages should be recalculated when code and validation evidence change.
+
+| Project | What it does | Progress |
+|---|---|---:|
+| 🌊 **[DayFlow](https://github.com/palmid3v/dayflow-palmid3v)** | Productivity hub for tasks, schedules, daily planning, reminders, and review. Migration and release gates remain open. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
+| ✅ **To-Do** 🔒 | Task management and source-data repository for the DayFlow migration. Cross-app integrity, recovery, and integration tests remain. | **82%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| 🗓️ **Timetable** 🔒 | Recurring schedules and migration/rollback source for DayFlow. Persistence reconciliation and external adapters remain open. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
+| 🥪 **Sandwichies** 🔒 | Sandwich configurator and operations platform. Checkout remains disabled until release validation and approval. | **78%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| 💰 **[Financial-D3v](https://github.com/palmid3v/financial-d3v-palmid3v)** | Private-finance workspace built around an encrypted vault and local financial calculations. Further intelligence features are planned. | **88%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ |
+| 🏡 **Cupboard** 🔒 | Household inventory with barcode scanning, shared catalog, movement history, and household access. Device/offline hardening continues. | **82%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| 🔐 **[PasswordVault](https://github.com/palmid3v/passwordvault-palmid3v)** | Local-first desktop password manager with a native Tauri/Rust vault layer and KDBX4 support. Independent security audit remains outside the completed scope. | **95%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 |
+| 📄 **ATS Resume Builder** 🔒 | Local-first resume editor with deterministic ATS guidance and PDF export. Ongoing hardening remains. | **85%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟦⬜ |
+| 🗂️ **PALMI-D3V Portfolio** 🔒 | Bilingual, evidence-led archive of products and development decisions. Real product artifacts and release-quality checks remain. | **75%**<br>🟩🟩🟩🟩🟩🟩🟩🟦⬜⬜ |
+| 🎱 **Bingo / Number Party** 🔒 | Multiplayer social number game MVP. Further Firestore hardening, lifecycle, accessibility, and deployment checks remain. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
+| 🎬 **StreamCanvas** 🔒 | Vertical streaming-layout editor with canvas, layers, undo/redo, and export. The documented roadmap is paused at v0.2. | **45%**<br>🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
+| 🧮 **Calculator** 🔒 | Client-side calculator with keyboard controls, calculation history, tests, and PWA foundation. Release QA remains. | **80%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| 🔳 **QR Generator** 🔒 | Browser-based QR creation with color/size controls, PNG download, and supported native sharing. Cross-browser checks remain. | **85%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟦⬜ |
+| 🎨 **Theme Lab** 🔒 | Visual theme/color experiment. The current scope is narrower than future advanced editing/export ideas. | **70%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
+| 🖋️ **ALDO'S INK** 🔒 | Tattoo artist portfolio and landing page, with its own artist identity. Final content and release checks should remain evidence-led. | **88%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ |
+| 👽 **[Rick & Morty Explorer](https://github.com/palmid3v/Rick-Morty-VueJs-Tailwind)** | Vue 3 learning project exploring public API consumption, routing, and reusable components. A learning project, not a production platform. | **75%**<br>🟩🟩🟩🟩🟩🟩🟩🟦⬜⬜ |
+| 🪐 **[PALMI-D3V Profile](https://github.com/palmid3v/palmid3v)** | Developer profile and ecosystem index. README redesign is recorded; rendered layout and link audit remain. | **85%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟦⬜ |
+
+🔒 *Private source repository: no direct repository link is shown here. The icon is a visibility note, not a project status.*
+
+### 🧭 Progress is not the same as release readiness
+
+- 🛠️ **Implementation:** how much of the documented product scope is built.
+- 🧩 **Maturity:** how complete and coherent the product is for its intended purpose.
+- 🧪 **Release readiness:** remaining tests, security reviews, device checks, migration evidence, and deployment gates.
+
+The displayed percentage is a **combined progress estimate across those dimensions**. It does not replace a project's roadmap, CI results, security audit, or explicit release approval. No application is considered integrated with another unless the connection is supported by implementation evidence.
+
+---
+
 ## 🛠️ Tools & technologies
 
 <p>
