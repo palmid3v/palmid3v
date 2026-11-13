@@ -55,29 +55,39 @@ My work spans productivity tools, personal-finance software, utilities, creative
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🔐 PasswordVault</h3>
-      <p>A local-first desktop password manager combining a React interface with a native Tauri/Rust vault layer and KDBX4 support.</p>
-      <p><a href="https://github.com/palmid3v/passwordvault-palmid3v">Explore repository ↗</a></p>
+      <h3>🏡 Cupboard</h3>
+      <p>A multi-workspace inventory product keeping household and business stock, product identity, and movement history clearly separated.</p>
+      <p><a href="https://github.com/palmid3v/cupboard-palmid3v">Explore repository ↗</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>👽 Rick & Morty Explorer</h3>
-      <p>A Vue 3 learning project exploring public API consumption, reusable components, routing, and character discovery.</p>
-      <p><a href="https://github.com/palmid3v/Rick-Morty-VueJs-Tailwind">Explore repository ↗</a></p>
+      <h3>🥪 Sandwichies</h3>
+      <p>A mobile-first storefront and operations platform for catalog, pricing, orders, and delivery workflows. Order intake remains disabled pending release approval.</p>
+      <p><a href="https://github.com/palmid3v/sandwichies-palmid3v">Explore repository ↗</a></p>
     </td>
   </tr>
 </table>
 
 For the broader product story, experiments, and project notes, visit the **[PALMI-D3V Portfolio](https://palmid3v.vercel.app/)**.
 
+## 🔎 Public repository health — 2026-11-12
+
+Five repositories are public: this profile, Cupboard, Sandwichies, DayFlow and Financial-D3v. The four application repositories currently have CI failures or an inconclusive runner result under investigation. Three corrective pull requests are open:
+
+- [Cupboard #11](https://github.com/palmid3v/cupboard-palmid3v/pull/11) — align regression assertions with the active workspace subscription.
+- [DayFlow #41](https://github.com/palmid3v/dayflow-palmid3v/pull/41) — separate unit tests from Firestore Emulator Rules tests.
+- [Financial-D3v #21](https://github.com/palmid3v/financial-d3v-palmid3v/pull/21) — defer the Vite PDF worker asset import until browser extraction.
+
+Sandwichies' latest run did not report executed job steps, so its result is inconclusive for application code. Order intake remains disabled. Detailed evidence and release gates are recorded in [QUALITY-CHECKPOINT-2026-11-12.md](QUALITY-CHECKPOINT-2026-11-12.md).
+
 ## 🌌 The PALMI-D3V Ecosystem — Progress
 
-A growing portfolio of **17 projects**, each with its own purpose, lifecycle, and release criteria. Progress combines documented implementation, overall product maturity, and remaining validation/release work.
+A growing portfolio of **17 projects**, with **5 repositories currently public** and the remaining source repositories kept private. Each project has its own purpose, lifecycle, and release criteria. Progress combines documented implementation, overall product maturity, and remaining validation/release work.
 
 > 📊 **How to read these numbers:** percentages are evidence-based estimates from each project's current roadmap and context documentation—not live telemetry or a claim that every test passes. A feature-complete project can still have release or security checks pending. Percentages should be recalculated when code and validation evidence change.
 
 | Project | What it does | Progress |
 |---|---|---:|
-| 🔐 **[PasswordVault](https://github.com/palmid3v/passwordvault-palmid3v)** | Local-first desktop password manager with a native Tauri/Rust vault layer and KDBX4 support. Independent security audit remains outside the completed scope. | **95%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 |
+| 🔐 **PasswordVault** 🔒 | Local-first desktop password manager with a native Tauri/Rust vault layer and KDBX4 support. Independent security audit remains outside the completed scope. | **95%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 |
 | 💰 **[Financial-D3v](https://github.com/palmid3v/financial-d3v-palmid3v)** | Private-finance workspace built around an encrypted vault and local financial calculations. Further intelligence features are planned. | **88%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ |
 | 🖋️ **ALDO'S INK** 🔒 | Tattoo artist portfolio and landing page, with its own artist identity. Final content and release checks should remain evidence-led. | **88%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ |
 | 📄 **ATS Resume Builder** 🔒 | Local-first resume editor with deterministic ATS guidance and PDF export. Ongoing hardening remains. | **85%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟦⬜ |
@@ -88,7 +98,7 @@ A growing portfolio of **17 projects**, each with its own purpose, lifecycle, an
 | 🧮 **Calculator** 🔒 | Client-side calculator with keyboard controls, calculation history, tests, and PWA foundation. Release QA remains. | **80%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
 | 🥪 **Sandwichies** 🔒 | Sandwich configurator and operations platform. Checkout remains disabled until release validation and approval. | **78%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
 | 🗂️ **PALMI-D3V Portfolio** 🔒 | Bilingual, evidence-led archive of products and development decisions. Real product artifacts and release-quality checks remain. | **75%**<br>🟩🟩🟩🟩🟩🟩🟩🟦⬜⬜ |
-| 👽 **[Rick & Morty Explorer](https://github.com/palmid3v/Rick-Morty-VueJs-Tailwind)** | Vue 3 learning project exploring public API consumption, routing, and reusable components. A learning project, not a production platform. | **75%**<br>🟩🟩🟩🟩🟩🟩🟩🟦⬜⬜ |
+| 👽 **Rick & Morty Explorer** 🔒 | Vue 3 learning project exploring public API consumption, routing, and reusable components. A learning project, not a production platform. | **75%**<br>🟩🟩🟩🟩🟩🟩🟩🟦⬜⬜ |
 | 🌊 **[DayFlow](https://github.com/palmid3v/dayflow-palmid3v)** | Productivity hub for tasks, schedules, daily planning, reminders, and review. Migration and release gates remain open. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
 | 🗓️ **Timetable** 🔒 | Recurring schedules and migration/rollback source for DayFlow. Persistence reconciliation and external adapters remain open. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
 | 🎱 **Bingo / Number Party** 🔒 | Multiplayer social number game MVP. Further Firestore hardening, lifecycle, accessibility, and deployment checks remain. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
