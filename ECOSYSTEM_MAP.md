@@ -43,7 +43,7 @@ The visibility list above is based on the GitHub repository listing at the revie
 - Cupboard: a stale regression assertion failed because the implementation now subscribes to the selected workspace only. Corrective PR #11 is open.
 - DayFlow: six Firestore Rules tests were included in a unit-test command without starting the emulator. Corrective PR #41 separates the test layers and starts the emulator in CI.
 - Financial-D3v: frontend parser tests failed because a Vite-only worker URL import ran during Node module loading. Corrective PR #21 defers that import; the Go CI job passed.
-- Sandwichies: the latest CI run reported no executed job steps, so the run is inconclusive for application code. Order intake remains disabled.
+- Sandwichies: maintenance-branch CI passed dependency audit, lint, 43 domain tests, 84 Worker tests, 12 Firestore Rules tests, 7 integration tests, build and smoke. npm audit still reports 7 low/moderate vulnerabilities; order intake remains disabled.
 - The profile repository is documentation-only and does not have an application CI workflow.
 
 See the per-project quality checkpoint documents for run links, scope and remaining gates.
