@@ -94,9 +94,9 @@ A growing portfolio of **17 projects**, with **5 repositories currently public**
 | 🔳 **QR Generator** 🔒 | Browser-based QR creation with color/size controls, PNG download, and supported native sharing. Cross-browser checks remain. | **85%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟦⬜ |
 | 🪐 **[PALMI-D3V Profile](https://github.com/palmid3v/palmid3v)** | Developer profile and ecosystem index. README redesign is recorded; rendered layout and link audit remain. | **85%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟦⬜ |
 | ✅ **To-Do** 🔒 | Task management and source-data repository for the DayFlow migration. Cross-app integrity, recovery, and integration tests remain. | **82%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
-| 🏡 **Cupboard** 🔒 | Household inventory with barcode scanning, shared catalog, movement history, and household access. Device/offline hardening continues. | **82%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| 🏡 **[Cupboard](https://github.com/palmid3v/cupboard-palmid3v)** | Household inventory with barcode scanning, shared catalog, movement history, and household access. Device/offline hardening continues. | **82%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
 | 🧮 **Calculator** 🔒 | Client-side calculator with keyboard controls, calculation history, tests, and PWA foundation. Release QA remains. | **80%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
-| 🥪 **Sandwichies** 🔒 | Sandwich configurator and operations platform. Checkout remains disabled until release validation and approval. | **78%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| 🥪 **[Sandwichies](https://github.com/palmid3v/sandwichies-palmid3v)** | Sandwich configurator and operations platform. Checkout remains disabled until release validation and approval. | **78%**<br>🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
 | 🗂️ **PALMI-D3V Portfolio** 🔒 | Bilingual, evidence-led archive of products and development decisions. Real product artifacts and release-quality checks remain. | **75%**<br>🟩🟩🟩🟩🟩🟩🟩🟦⬜⬜ |
 | 👽 **Rick & Morty Explorer** 🔒 | Vue 3 learning project exploring public API consumption, routing, and reusable components. A learning project, not a production platform. | **75%**<br>🟩🟩🟩🟩🟩🟩🟩🟦⬜⬜ |
 | 🌊 **[DayFlow](https://github.com/palmid3v/dayflow-palmid3v)** | Productivity hub for tasks, schedules, daily planning, reminders, and review. Migration and release gates remain open. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
