@@ -16,10 +16,10 @@ Visibility is a point-in-time observation and should be rechecked before publish
 
 | Repository | Latest observed result | Evidence / action |
 |---|---|---|
-| Cupboard | Functional CI passed: regression 19/19, Firestore Rules 8/8, lint and build | 25 full-tree findings; production-only: 5 high + 1 critical, including websocket-driver via Firebase Realtime Database. Security gate blocks merge/release. |
-| Sandwichies | Full CI passed: 43 domain, 84 Worker, 12 Firestore Rules, 7 integration tests, build and smoke | Production dependency audit reports 7 (1 low, 6 moderate), all with fixes available; no high/critical findings. Keep order intake disabled. |
-| DayFlow | CI passed: 27/27 unit/domain tests, 6/6 Firestore Rules tests, lint and build | PR #41 separates unit tests and runs Rules tests inside Firestore Emulator. |
-| Financial-D3v | CI passed: 32/32 frontend tests; Go tests/build also passed | PR #21 defers the Vite-specific import until PDF extraction. |
+| Cupboard | Functional CI passed: regression 19/19, Firestore Rules 8/8, lint and build | [Latest run](https://github.com/palmid3v/cupboard-palmid3v/actions/runs/43360731865): security gate blocks on 25 full-tree findings; production-only 5 high + 1 critical. |
+| Sandwichies | Full CI passed: 43 domain, 84 Worker, 12 Firestore Rules, 7 integration tests, build and smoke | [Latest run](https://github.com/palmid3v/sandwichies-palmid3v/actions/runs/43360656251): production audit 7 (1 low, 6 moderate), all with fixes available; no high/critical. Orders remain disabled. |
+| DayFlow | CI passed: 27/27 unit/domain tests, 6/6 Firestore Rules tests, lint and build | [Latest run](https://github.com/palmid3v/dayflow-palmid3v/actions/runs/43360559200); PR #41 separates unit tests and runs Rules tests inside Firestore Emulator. |
+| Financial-D3v | CI passed: 32/32 frontend tests; Go tests/build also passed | [Latest run](https://github.com/palmid3v/financial-d3v-palmid3v/actions/runs/43360567836); PR #21 defers the Vite-specific import until PDF extraction. |
 
 ## Open corrective pull requests
 
