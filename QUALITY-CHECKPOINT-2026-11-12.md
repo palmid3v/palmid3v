@@ -16,8 +16,8 @@ Visibility is a point-in-time observation and should be rechecked before publish
 
 | Repository | Latest observed result | Evidence / action |
 |---|---|---|
-| Cupboard | Functional CI passed: regression 19/19, Firestore Rules 8/8, lint and build | Security gate now blocks on 25 dependency advisories: 1 critical, 9 high; remediation required before merge/release. |
-| Sandwichies | Full CI passed: 43 domain, 84 Worker, 12 Firestore Rules, 7 integration tests, build and smoke | Production dependency audit reports 7 vulnerabilities (1 low, 6 moderate); package-level advisory report added for triage. Keep order intake disabled. |
+| Cupboard | Functional CI passed: regression 19/19, Firestore Rules 8/8, lint and build | 25 full-tree findings; production-only: 5 high + 1 critical, including websocket-driver via Firebase Realtime Database. Security gate blocks merge/release. |
+| Sandwichies | Full CI passed: 43 domain, 84 Worker, 12 Firestore Rules, 7 integration tests, build and smoke | Production dependency audit reports 7 (1 low, 6 moderate), all with fixes available; no high/critical findings. Keep order intake disabled. |
 | DayFlow | CI passed: 27/27 unit/domain tests, 6/6 Firestore Rules tests, lint and build | PR #41 separates unit tests and runs Rules tests inside Firestore Emulator. |
 | Financial-D3v | CI passed: 32/32 frontend tests; Go tests/build also passed | PR #21 defers the Vite-specific import until PDF extraction. |
 
