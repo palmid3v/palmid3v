@@ -16,10 +16,10 @@ Visibility is a point-in-time observation and should be rechecked before publish
 
 | Repository | Latest observed result | Evidence / action |
 |---|---|---|
-| Cupboard | Failed regression assertion: 18 passed, 1 failed | PR #11 updates the assertion to match the active-workspace implementation. |
-| Sandwichies | Failed run with no reported job steps | Inconclusive for application code; rerun with an available runner. Keep order intake disabled. |
-| DayFlow | 27 unit tests passed; 6 Firestore Rules tests failed because no emulator was started | PR #41 separates unit tests and runs Rules tests inside Firestore Emulator. |
-| Financial-D3v | Go job passed; frontend tests failed on a Vite worker URL import under Node | PR #21 defers the Vite-specific import until PDF extraction. |
+| Cupboard | Regression still failed on a second stale UI assertion after the first correction | PR #11 now updates both the active-workspace and inventory-view contracts; latest commit awaits CI. |
+| Sandwichies | Main-branch run had no reported job steps; documentation PR run is queued/running | Inconclusive for application code; inspect a run that executes the workflow. Keep order intake disabled. |
+| DayFlow | CI passed: 27/27 unit/domain tests, 6/6 Firestore Rules tests, lint and build | PR #41 separates unit tests and runs Rules tests inside Firestore Emulator. |
+| Financial-D3v | CI passed: 32/32 frontend tests; Go tests/build also passed | PR #21 defers the Vite-specific import until PDF extraction. |
 
 ## Open corrective pull requests
 
@@ -27,7 +27,7 @@ Visibility is a point-in-time observation and should be rechecked before publish
 - https://github.com/palmid3v/dayflow-palmid3v/pull/41
 - https://github.com/palmid3v/financial-d3v-palmid3v/pull/21
 
-All three pull requests are open and their CI results must be reviewed before merging. No PR is described as merged or validated green in this checkpoint.
+All three corrective pull requests remain open. DayFlow and Financial-D3v have successful CI on their corrective commits; Cupboard needs another CI run after its second assertion correction. These changes are not merged.
 
 ## Scope and limits
 
