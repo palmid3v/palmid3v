@@ -77,7 +77,7 @@ Five repositories are public: this profile, Cupboard, Sandwichies, DayFlow and F
 - [DayFlow #41](https://github.com/palmid3v/dayflow-palmid3v/pull/41) — separate unit tests from Firestore Emulator Rules tests.
 - [Financial-D3v #21](https://github.com/palmid3v/financial-d3v-palmid3v/pull/21) — defer the Vite PDF worker asset import until browser extraction.
 
-Sandwichies' latest run did not report executed job steps, so its result is inconclusive for application code. Order intake remains disabled. Detailed evidence and release gates are recorded in [QUALITY-CHECKPOINT-2026-11-12.md](QUALITY-CHECKPOINT-2026-11-12.md).
+Sandwichies' maintenance-branch CI now passes dependency audit, lint, 43 domain tests, 84 Worker tests, 12 Firestore Rules tests, 7 integration tests, build and smoke. npm audit still reports 7 low/moderate vulnerabilities; order intake remains disabled. Detailed evidence and release gates are recorded in [QUALITY-CHECKPOINT-2026-11-12.md](QUALITY-CHECKPOINT-2026-11-12.md).
 
 ## 🌌 The PALMI-D3V Ecosystem — Progress
 
