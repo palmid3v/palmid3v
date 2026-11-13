@@ -1,6 +1,6 @@
 # 🧭 PALMI-D3V — Ecosystem Map & Chat Handoff
 
-**Last reviewed:** 2026-10-18  
+**Last reviewed:** 2026-11-12  
 **Source of truth:** Each repository's main branch and its project-specific implementation/docs.  
 **Purpose:** Factual starting point for a future conceptual map. This inventory does not claim that the applications are already integrated.
 
@@ -12,10 +12,10 @@
 | To-Do (repositorio fuente privado: palmid3v/to-do-palmid3v) | Task lifecycle | Legacy/source repository for task data and migration/rollback; do not retire until migration, permissions and history are verified. |
 | Timetable (repositorio fuente privado: palmid3v/timetable-palmid3v) | Recurring schedules | Legacy/source repository for schedule data and migration/rollback; do not retire until reconciliation is verified. |
 | [Financial-D3v](https://github.com/palmid3v/financial-d3v-palmid3v) | Private personal finance | Separate finance product; encrypted .fdv file is the persistence boundary. HTTPS is required for Web Crypto in normal browser use. |
-| Sandwichies (repositorio fuente privado: palmid3v/sandwichies-palmid3v) | Sandwich configurator and business operations | Business product; ordering is intentionally disabled pending validation/release approval. Spreadsheet quantities/costs are authoritative. |
-| Cupboard (repositorio fuente privado: palmid3v/cupboard-palmid3v) | Household inventory | Functional MVP in reliability hardening; Firestore-backed, mobile-first, barcode scanning. |
+| [Sandwichies](https://github.com/palmid3v/sandwichies-palmid3v) | Sandwich configurator and business operations | Business product; ordering is intentionally disabled pending validation/release approval. Spreadsheet quantities/costs are authoritative. |
+| [Cupboard](https://github.com/palmid3v/cupboard-palmid3v) | Household inventory | Functional MVP in reliability hardening; Firestore-backed, mobile-first, barcode scanning. |
 | ATS Resume Builder (repositorio fuente privado: palmid3v/ats-resume-builder-palmid3v) | Resume authoring and ATS guidance | Local-first; deterministic guidance and client-side PDF export. |
-| [PasswordVault](https://github.com/palmid3v/passwordvault-palmid3v) | Desktop password manager | Tauri/Rust native vault layer; functional completion recorded, not independently security-certified. |
+| PasswordVault (repositorio fuente privado: palmid3v/passwordvault-palmid3v) | Desktop password manager | Tauri/Rust native vault layer; functional completion recorded, not independently security-certified. |
 | PALMI-D3V Portfolio (repositorio fuente privado: palmid3v/portfolio-palmid3v) | Public product portfolio | Evidence-led bilingual presentation; keep claims synchronized with project repositories. |
 | Theme Lab (repositorio fuente privado: palmid3v/bgc-changer-palmid3v) | Visual theme/color experiment | React-based theme playground; independent utility/experiment. |
 | Calculator (repositorio fuente privado: palmid3v/calculator-palmid3v) | Browser calculator | Client-side utility; calculation history in local browser storage. |
@@ -23,8 +23,30 @@
 | Number Party (repositorio fuente privado: palmid3v/bingo-palmid3v) | Social multiplayer number game | Firebase realtime rooms; no betting or monetary prizes. |
 | StreamCanvas (repositorio fuente privado: palmid3v/streamcanvas-palmid3v) | Vertical streaming-layout editor | Editor prototype documented as paused; confirm before planning new scope. |
 | ALDO'S INK (repositorio fuente privado: palmid3v/tattoo-landing-page-palmid3v) | Tattoo artist portfolio | Client-style frontend landing page; artist brand is distinct from developer identity. |
-| [Rick & Morty Explorer](https://github.com/palmid3v/Rick-Morty-VueJs-Tailwind) | Vue API learning project | Portfolio/learning experiment using public API. |
+| Rick & Morty Explorer (repositorio fuente privado: palmid3v/Rick-Morty-VueJs-Tailwind) | Vue API learning project | Portfolio/learning experiment using public API. |
 | [GitHub Profile](https://github.com/palmid3v/palmid3v) | Professional identity | Entry point for the ecosystem; not an application runtime. |
+
+## 🌐 Public repositories — visibility verified 2026-11-12
+
+| Repository | Role |
+|---|---|
+| [palmid3v](https://github.com/palmid3v/palmid3v) | Developer profile and ecosystem index |
+| [cupboard-palmid3v](https://github.com/palmid3v/cupboard-palmid3v) | Household and business inventory |
+| [sandwichies-palmid3v](https://github.com/palmid3v/sandwichies-palmid3v) | Food storefront and business operations |
+| [dayflow-palmid3v](https://github.com/palmid3v/dayflow-palmid3v) | Personal productivity |
+| [financial-d3v-palmid3v](https://github.com/palmid3v/financial-d3v-palmid3v) | Private personal finance |
+
+The visibility list above is based on the GitHub repository listing at the review date. All other projects in this ecosystem map are private unless their visibility is rechecked.
+
+## 🧪 Quality checkpoint — 2026-11-12
+
+- Cupboard: a stale regression assertion failed because the implementation now subscribes to the selected workspace only. Corrective PR #11 is open.
+- DayFlow: six Firestore Rules tests were included in a unit-test command without starting the emulator. Corrective PR #41 separates the test layers and starts the emulator in CI.
+- Financial-D3v: frontend parser tests failed because a Vite-only worker URL import ran during Node module loading. Corrective PR #21 defers that import; the Go CI job passed.
+- Sandwichies: maintenance-branch CI passed dependency audit, lint, 43 domain tests, 84 Worker tests, 12 Firestore Rules tests, 7 integration tests, build and smoke. npm audit still reports 7 low/moderate vulnerabilities; order intake remains disabled.
+- The profile repository is documentation-only and does not have an application CI workflow.
+
+See the per-project quality checkpoint documents for run links, scope and remaining gates.
 
 ## 🔗 Known relationships (do not infer more than this)
 
