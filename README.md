@@ -29,6 +29,14 @@ I enjoy taking an idea from its first sketch to a working product: understanding
 
 My work spans productivity tools, personal-finance software, utilities, creative interfaces, and applications that solve everyday problems. I care about more than getting something to run: **the product should be understandable, maintainable, responsive, and honest about what it can do.**
 
+## 🎯 Mission
+
+Build useful, thoughtful digital products by turning real problems into clear user experiences, maintainable systems, and validated software.
+
+## 🔭 Vision
+
+Grow PALMI-D3V into a coherent portfolio and ecosystem of independent products—each with a clear purpose, honest progress reporting, strong documentation, and reliable engineering practices.
+
 ## 🧩 What I build
 
 - 🚀 **Digital products** — from focused browser utilities to full-stack applications.
@@ -74,7 +82,7 @@ For the broader product story, experiments, and project notes, visit the **[PALM
 > **Public repository health — 2026-11-12:** Five repositories are public: this profile, Cupboard, Sandwichies, DayFlow and Financial-D3v. The current corrective work is tracked in [Cupboard #11](https://github.com/palmid3v/cupboard-palmid3v/pull/11), [DayFlow #41](https://github.com/palmid3v/dayflow-palmid3v/pull/41) and [Financial-D3v #21](https://github.com/palmid3v/financial-d3v-palmid3v/pull/21). DayFlow and Financial-D3v CI passed; Cupboard's functional CI passed, but its dependency tree reports 25 vulnerabilities including one critical; the security gate blocks merge until they are remediated. Sandwichies CI passed, with 7 low/moderate production dependency vulnerabilities still requiring review. Order intake remains disabled. See [QUALITY-CHECKPOINT-2026-11-12.md](QUALITY-CHECKPOINT-2026-11-12.md) for evidence and release gates.
 
 
-A growing portfolio of **17 projects**, with **5 repositories currently public** and the remaining source repositories kept private. Each project has its own purpose, lifecycle, and release criteria. Progress combines documented implementation, overall product maturity, and remaining validation/release work.
+A growing portfolio of **19 projects**, with **5 repositories currently public** and the remaining source repositories kept private. Each project has its own purpose, lifecycle, and release criteria. Progress combines documented implementation, overall product maturity, and remaining validation/release work.
 
 > 📊 **How to read these numbers:** percentages are evidence-based estimates from each project's current roadmap and context documentation—not live telemetry or a claim that every test passes. A feature-complete project can still have release or security checks pending. Percentages should be recalculated when code and validation evidence change.
 
@@ -95,6 +103,8 @@ A growing portfolio of **17 projects**, with **5 repositories currently public**
 | 🌊 **[DayFlow](https://github.com/palmid3v/dayflow-palmid3v)** | Productivity hub for tasks, schedules, daily planning, reminders, and review. Migration and release gates remain open. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
 | 🗓️ **Timetable** 🔒 | Recurring schedules and migration/rollback source for DayFlow. Persistence reconciliation and external adapters remain open. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
 | 🎱 **Bingo / Number Party** 🔒 | Multiplayer social number game MVP. Further Firestore hardening, lifecycle, accessibility, and deployment checks remain. | **72%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
+| 🧩 **[PALMI-D3V Connected Workspace](https://github.com/palmid3v/PALMI-D3V-Connected-Workspace)** 🔒 | Local PowerShell launcher for four independent applications; runtime validation on the owner’s PC remains. | **85%**<br>🟩🟩🟩🟩🟩🟩🟩🟩🟦⬜ |
+| 🧭 **Retention Team Hub** 🔒 | Local-first Windows supervisor workspace; desktop foundation and early project-intelligence capabilities exist, while operational KPI workflows remain largely planned. | **32%**<br>🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ |
 | 🎨 **Theme Lab** 🔒 | Visual theme/color experiment. The current scope is narrower than future advanced editing/export ideas. | **70%**<br>🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
 | 🎬 **StreamCanvas** 🔒 | Vertical streaming-layout editor with canvas, layers, undo/redo, and export. The documented roadmap is paused at v0.2. | **45%**<br>🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
 🔒 *Private source repository: no direct repository link is shown here. The icon is a visibility note, not a project status.*
