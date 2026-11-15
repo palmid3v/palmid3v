@@ -77,6 +77,8 @@ Grow PALMI-D3V into a coherent portfolio and ecosystem of independent products�
 
 For the broader product story, experiments, and project notes, visit the **[PALMI-D3V Portfolio](https://palmid3v.vercel.app/)**.
 
+> **Documentation update — 2026-11-14:** Mission, vision and the project index were reviewed. The index lists 19 repositories/projects. The latest separately evidenced CI/security checkpoint remains dated 2026-11-12; it has not been represented as re-run today.
+
 ## 🌌 The PALMI-D3V Ecosystem — Progress
 
 > **Public repository health — 2026-11-12:** Five repositories are public: this profile, Cupboard, Sandwichies, DayFlow and Financial-D3v. The current corrective work is tracked in [Cupboard #11](https://github.com/palmid3v/cupboard-palmid3v/pull/11), [DayFlow #41](https://github.com/palmid3v/dayflow-palmid3v/pull/41) and [Financial-D3v #21](https://github.com/palmid3v/financial-d3v-palmid3v/pull/21). DayFlow and Financial-D3v CI passed; Cupboard's functional CI passed, but its dependency tree reports 25 vulnerabilities including one critical; the security gate blocks merge until they are remediated. Sandwichies CI passed, with 7 low/moderate production dependency vulnerabilities still requiring review. Order intake remains disabled. See [QUALITY-CHECKPOINT-2026-11-12.md](QUALITY-CHECKPOINT-2026-11-12.md) for evidence and release gates.
